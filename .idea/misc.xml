@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/M OMPRAKASH/AndroidStudioProjects/AdvancedComponents/app/src/main/res/layout/activity_date_of_birth.xml" value="0.21052631578947367" />
+        <entry key="..\:/Users/M OMPRAKASH/AndroidStudioProjects/AdvancedComponents/app/src/main/res/layout/activity_home.xml" value="0.21052631578947367" />
+        <entry key="..\:/Users/M OMPRAKASH/AndroidStudioProjects/AdvancedComponents/app/src/main/res/layout/activity_location.xml" value="0.21052631578947367" />
+        <entry key="..\:/Users/M OMPRAKASH/AndroidStudioProjects/AdvancedComponents/app/src/main/res/layout/activity_lucky_number.xml" value="0.1986842105263158" />
+        <entry key="..\:/Users/M OMPRAKASH/AndroidStudioProjects/AdvancedComponents/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
+        <entry key="..\:/Users/M OMPRAKASH/AndroidStudioProjects/AdvancedComponents/app/src/main/res/layout/activity_team.xml" value="0.21052631578947367" />
+        <entry key="..\:/Users/M OMPRAKASH/AndroidStudioProjects/AdvancedComponents/app/src/main/res/layout/dropdown_item.xml" value="0.21052631578947367" />
+        <entry key="..\:/Users/M OMPRAKASH/AndroidStudioProjects/AdvancedComponents/app/src/main/res/layout/dropdown_months_item.xml" value="0.21052631578947367" />
+        <entry key="..\:/Users/M OMPRAKASH/AndroidStudioProjects/AdvancedComponents/app/src/main/res/layout/months_item.xml" value="0.1986842105263158" />
+        <entry key="..\:/Users/M OMPRAKASH/AndroidStudioProjects/AdvancedComponents/app/src/main/res/layout/states_item.xml" value="0.1986842105263158" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

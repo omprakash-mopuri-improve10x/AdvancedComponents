@@ -42,4 +42,13 @@
         android:backgroundTint="#3EC7DA"
         android:text="Team"
         android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/add_members_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#3EC7DA"
+        android:text="Add Members"
+        android:textAllCaps="false" />
 </LinearLayout>

@@ -7,6 +7,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -24,6 +25,7 @@ public class TeamListActivity extends AppCompatActivity {
         setData();
         setupNames();
         handleAddButton();
+        handleDeleteButton();
     }
 
     public void setData() {
@@ -37,6 +39,12 @@ public class TeamListActivity extends AppCompatActivity {
         arrayAdapter = new ArrayAdapter<String>(
                 this, android.R.layout.simple_list_item_1, namesList);
         namesLv.setAdapter(arrayAdapter);
+        namesLv.setOnItemClickListener((adapterView, view, position, l) -> {
+            String memberName = namesList.get(position);
+            EditText nameTxt = findViewById(R.id.name_txt);
+            nameTxt.setText(memberName);
+            Toast.makeText(this, "Selected : " + namesList.get(position), Toast.LENGTH_SHORT).show();
+        });
     }
 
     public void handleAddButton() {
@@ -48,6 +56,17 @@ public class TeamListActivity extends AppCompatActivity {
                 arrayAdapter.add(name);
                 arrayAdapter.notifyDataSetChanged();
             }
+            nameTxt.setText("");
+        });
+    }
+
+    public void handleDeleteButton() {
+        Button deleteBtn = findViewById(R.id.delete_btn);
+        deleteBtn.setOnClickListener(view -> {
+            EditText nameTxt = findViewById(R.id.name_txt);
+            String name = nameTxt.getText().toString();
+            arrayAdapter.remove(name);
+            arrayAdapter.notifyDataSetChanged();
             nameTxt.setText("");
         });
     }

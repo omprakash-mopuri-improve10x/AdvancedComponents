@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/M OMPRAKASH/AndroidStudioProjects/AdvancedComponents/app/src/main/res/layout/activity_add_members.xml" value="0.21052631578947367" />
+        <entry key="..\:/Users/M OMPRAKASH/AndroidStudioProjects/AdvancedComponents/app/src/main/res/layout/activity_contacts.xml" value="0.21052631578947367" />
         <entry key="..\:/Users/M OMPRAKASH/AndroidStudioProjects/AdvancedComponents/app/src/main/res/layout/activity_date_of_birth.xml" value="0.21052631578947367" />
         <entry key="..\:/Users/M OMPRAKASH/AndroidStudioProjects/AdvancedComponents/app/src/main/res/layout/activity_home.xml" value="0.21052631578947367" />
         <entry key="..\:/Users/M OMPRAKASH/AndroidStudioProjects/AdvancedComponents/app/src/main/res/layout/activity_location.xml" value="0.21052631578947367" />
@@ -11,8 +12,10 @@
         <entry key="..\:/Users/M OMPRAKASH/AndroidStudioProjects/AdvancedComponents/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
         <entry key="..\:/Users/M OMPRAKASH/AndroidStudioProjects/AdvancedComponents/app/src/main/res/layout/activity_team.xml" value="0.21052631578947367" />
         <entry key="..\:/Users/M OMPRAKASH/AndroidStudioProjects/AdvancedComponents/app/src/main/res/layout/activity_team_list.xml" value="0.21052631578947367" />
+        <entry key="..\:/Users/M OMPRAKASH/AndroidStudioProjects/AdvancedComponents/app/src/main/res/layout/contact_item.xml" value="0.1986842105263158" />
         <entry key="..\:/Users/M OMPRAKASH/AndroidStudioProjects/AdvancedComponents/app/src/main/res/layout/dropdown_item.xml" value="0.21052631578947367" />
         <entry key="..\:/Users/M OMPRAKASH/AndroidStudioProjects/AdvancedComponents/app/src/main/res/layout/dropdown_months_item.xml" value="0.21052631578947367" />
+        <entry key="..\:/Users/M OMPRAKASH/AndroidStudioProjects/AdvancedComponents/app/src/main/res/layout/dropdown_states_item.xml" value="0.21052631578947367" />
         <entry key="..\:/Users/M OMPRAKASH/AndroidStudioProjects/AdvancedComponents/app/src/main/res/layout/months_item.xml" value="0.1986842105263158" />
         <entry key="..\:/Users/M OMPRAKASH/AndroidStudioProjects/AdvancedComponents/app/src/main/res/layout/states_item.xml" value="0.1986842105263158" />
       </map>

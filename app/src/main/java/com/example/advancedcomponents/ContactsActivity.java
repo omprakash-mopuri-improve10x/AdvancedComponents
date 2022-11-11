@@ -16,6 +16,7 @@ public class ContactsActivity extends AppCompatActivity {
     public ArrayList<Contact> contactsList;
     public ListView contactsLV;
     public ContactAdapter contactAdapter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

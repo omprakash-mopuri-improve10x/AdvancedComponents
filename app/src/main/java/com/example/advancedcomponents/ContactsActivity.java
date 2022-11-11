@@ -58,8 +58,12 @@ public class ContactsActivity extends AppCompatActivity {
             Contact contact = new Contact();
             contact.name = name;
             contact.phoneNumber = phoneNumber;
-            contactAdapter.add(contact);
-            contactAdapter.notifyDataSetChanged();
+            if (name.equals("") == false && phoneNumber.equals("") == false) {
+                contactAdapter.add(contact);
+                contactAdapter.notifyDataSetChanged();
+            }
+            nameTxt.setText("");
+            phoneNumberTxt.setText("");
         });
     }
 }

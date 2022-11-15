@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.GridView;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -14,7 +15,7 @@ import java.util.ArrayList;
 public class ContactsActivity extends AppCompatActivity {
 
     public ArrayList<Contact> contactsList;
-    public ListView contactsLV;
+    public GridView contactsGv;
     public ContactAdapter contactAdapter;
 
     @Override
@@ -44,9 +45,10 @@ public class ContactsActivity extends AppCompatActivity {
     }
 
     public void setupContactsListView() {
-        contactsLV = findViewById(R.id.contacts_lv);
+        contactsGv = findViewById(R.id.contacts_gv);
+        contactsGv.setNumColumns(2);
         contactAdapter = new ContactAdapter(this, R.layout.contact_item, contactsList);
-        contactsLV.setAdapter(contactAdapter);
+        contactsGv.setAdapter(contactAdapter);
     }
 
     public void handleAddButton() {

@@ -64,8 +64,9 @@
             android:textAllCaps="false" />
     </LinearLayout>
 
-    <ListView
-        android:id="@+id/contacts_lv"
+    <GridView
+        android:id="@+id/contacts_gv"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
 </LinearLayout>
